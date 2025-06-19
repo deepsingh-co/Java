@@ -5,6 +5,11 @@ public class javaBasic {
         System.out.println("* * *");
         System.out.println("* *");
         System.out.println("*");
+
+        int num =4;
+        String type = ((num % 2)==0) ? "even" : "odd";
+        System.out.println(type);
+
         
     }
 }

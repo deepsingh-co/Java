@@ -28,6 +28,7 @@ public class claculator {
             default: System.out.println("now use your own mind on St");
                 break;
         }
+        input.close();
 
     }
     

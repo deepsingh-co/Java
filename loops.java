@@ -18,12 +18,12 @@ public class loops {
    // int i =1;
    // int sum = 0;
    Scanner input = new Scanner(System.in);
-   System.out.print("Enter your Number : ");
-   int num = input.nextInt();
+   //System.out.print("Enter your Number : ");
+   //int num = input.nextInt();
    // while (i<=num) {
    //     sum+=i;
    //     i++;
-        input.close();
+        
    // }
    //     System.out.print(sum);
 
@@ -35,12 +35,22 @@ public class loops {
   // for(int i = 1;i<=4;i++){
   //  System.out.println("* * * *");
   // }
-  int rev =0;
-    while (num>0) {
-        int lastDigit = num%10;  
-        rev = (rev *10)+lastDigit; 
-        num /=10;
-    }
-    System.out.println(rev);
-    }
+  //int rev =0;
+  //  while (num>0) {
+  //      int lastDigit = num%10;  
+  //      rev = (rev *10)+lastDigit; 
+  //      num /=10;
+  //  }
+  //  System.out.println(rev);
+  do{
+      System.out.println("Enter your Number: ");
+      int num =input.nextInt();
+
+      if (num%10 ==0) {
+        continue;
+
+      }
+      System.out.println("number was : " + num);
+    }while(true);
+  }
 }

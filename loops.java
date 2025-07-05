@@ -42,6 +42,7 @@ public class loops {
   //      num /=10;
   //  }
   //  System.out.println(rev);
+  input.close();
   do{
       System.out.println("Enter your Number: ");
       int num =input.nextInt();
@@ -53,4 +54,5 @@ public class loops {
       System.out.println("number was : " + num);
     }while(true);
   }
+
 }

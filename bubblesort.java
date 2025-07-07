@@ -3,7 +3,7 @@ public class bubblesort {
         for(int turn =0;turn<arr.length-1;turn++){
             boolean swap = false; // if array is shorted and no swapping happen break the code and exit the time complexcity will we big O on n
             for(int j =0;j<arr.length-1-turn;j++){
-                if (arr[j]>arr[j+1]) {
+                if (arr[j]<arr[j+1]) {
                     // swap
                     int temp = arr[j];
                     arr[j]= arr[j+1];

@@ -7,6 +7,7 @@ public class builder {
             sb.append(ch);
         }
         System.out.println(sb);
+        System.out.println();
 
     }
 
